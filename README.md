@@ -1,1 +1,2 @@
 # wordcounter
+This program reads all text files in a specified directory and counts the frequency of words in those files. The program takes the directory path as input from the user and then uses the Python os module to loop over each file in that directory. If the file ends with ".txt", the program opens the file, strips white spaces and punctuations from each line, and counts the frequency of each word. The program then prints the top five most frequent words in all the files.
